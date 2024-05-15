@@ -16,12 +16,12 @@ This Python script provides a convenient way to test your internet speed and dis
    pip install speedtest-cli
    ```
 
-2. **Save the code as a Python file (e.g., `speed_test.py`).**
+2. **Save the code as a Python file (e.g., `test.py`).**
 
 3. **Run the script from your terminal:**
 
    ```bash
-   python speed_test.py
+   python test.py
    ```
 
 **Example Output:**
@@ -32,11 +32,6 @@ Download Speed: 54.32 Mbps
 Upload Speed: 12.56 Mbps
 ```
 
-**Additional Considerations:**
-
-* This script runs without any further configuration needed.
-* For more advanced features like server selection or historical data tracking, you can modify the code to incorporate these functionalities.
-
 **Contributing:**
 
-We welcome your contributions! Feel free to fork this repository and make improvements.
+I welcome your contributions! Feel free to fork this repository and make improvements.
