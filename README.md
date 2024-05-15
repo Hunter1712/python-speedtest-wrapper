@@ -1,35 +1,42 @@
-Python Internet Speed Test
+## Python Internet Speed Test [░▒▓█]
 
-This Python script provides a simple way to test your internet speed and display the download and upload speeds in Mbps.
+This Python script provides a convenient way to test your internet speed and display the download and upload speeds in Mbps.
 
-Features:
+**Features:**
 
-    Uses the speedtest library to perform the speed test.
-    Connects to the best available server for optimal performance.
-    Displays download and upload speeds in Mbps with two decimal places for readability.
+* Utilizes the `speedtest` library for conducting the speed test.
+* Automatically connects to the optimal server for best performance.
+* Presents download and upload speeds in Mbps with two decimal places for clarity.
 
-How to Use:
+**Getting Started:**
 
-    Install the speedtest library:
-    Bash
+1. **Install the `speedtest` library:**
 
-    pip install speedtest-cli
+   ```bash
+   pip install speedtest-cli
+   ```
 
+2. **Save the code as a Python file (e.g., `speed_test.py`).**
 
-Run the script from your terminal:
-Bash
+3. **Run the script from your terminal:**
 
-python test.py
+   ```bash
+   python speed_test.py
+   ```
 
-Use code with caution.
+**Example Output:**
 
-Example Output:
-
+```
 Connecting to server: server1.example.com (US Ashburn, VA)
 Download Speed: 54.32 Mbps
 Upload Speed: 12.56 Mbps
+```
 
+**Additional Considerations:**
 
-Contributing:
+* This script runs without any further configuration needed.
+* For more advanced features like server selection or historical data tracking, you can modify the code to incorporate these functionalities.
 
-Feel free to fork this repository and contribute improvements!
+**Contributing:**
+
+We welcome your contributions! Feel free to fork this repository and make improvements.
